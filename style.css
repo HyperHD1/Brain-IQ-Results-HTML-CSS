@@ -1,0 +1,134 @@
+.container-1{
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 15px;
+    margin-left: 450px;
+    margin-top: 200px;
+    width: 250px;
+    height: 325px;
+    display: inline-block;
+}
+p{
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.your-result{
+    font-size: 14px;
+    color: lightgrey;
+    padding-top: 20px;
+}
+.circle{
+    margin-top: 20px;
+    margin-left: 60px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 120px;
+    height: 120px;
+}
+.score{
+    padding-top: 25px;
+    font-weight: 800;
+    font-size: 40px;
+}
+.of-100{
+    font-size: 10px;
+    color: white;
+    opacity: 0.5;
+}
+.great{
+    margin-top: 20px;
+}
+.description{
+    margin-top: 20px;
+    font-size: 13px;
+    width: 190px;
+    color: lightgrey;
+    padding-left: 20px;
+}
+.summary{
+    color: black;
+    text-align: left;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.container-2{
+    box-shadow: 0px 15px 30px #c0c0c0;
+    border-radius: 15px;
+    margin-top: 200px;
+    width: 250px;
+    height: 325px;
+    display: inline-block;
+    vertical-align: top;
+}
+.container-3, .container-4, .container-5, .container-6{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    width: 210px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.container-3{
+    background-color: hsl(7, 85%, 92%);
+}
+.reaction{
+    color: hsl(0, 100%, 67%);
+    display: inline-block;
+}
+.container-4{
+    background-color: hsl(60, 75%, 87%);
+
+}
+.memory{
+    color: hsl(39, 100%, 56%);
+    display: inline-block;
+}
+.container-5{
+    background-color: hsl(142, 100%, 93%);
+}
+.verbal{
+    color: hsl(166, 100%, 37%);
+    display: inline-block;
+}
+.container-6{
+    background-color: hsl(240, 100%, 93%);
+}
+.visual{
+    color: hsl(234, 85%, 45%);
+    display: inline-block;
+}
+.icon{
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.points{
+    color: black;
+    display: inline-block;
+    margin-left: 20px;
+}
+.total{
+    color: gray;
+}
+.continue{
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 30px;
+    padding: 10px 80px 10px 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.continue:hover{
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.continue:active{
+    opacity: 0.7;
+}
